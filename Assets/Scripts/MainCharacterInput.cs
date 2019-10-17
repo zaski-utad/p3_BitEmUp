@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MainCharacterInput : MonoBehaviour
 {
-    NewGameManagerController m_mainCharacter;
+    Player m_mainCharacter;
 
     // Start is called before the first frame update
     void Start()
     {
-        m_mainCharacter = GetComponent<NewGameManagerController>();
+        m_mainCharacter = GetComponent<Player>();
     }
 
     // Update is called once per frame

@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 
     public  Rigidbody2D            m_rigidBody;
 	private SpriteRenderer         m_spriteRenderer; 
-    private GamePlayManager        m_gameManager;
+    private Player        m_gameManager;
     private MainCharacterAnimation m_mainCharacterAnimation;
 
     private float            m_floorLevel;
